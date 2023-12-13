@@ -1,0 +1,33 @@
+<app-navbar></app-navbar>
+<div class="container text-center text-white">
+    <div class="row pt-5">
+        <div class="col-lg-8 mx-auto">
+            <h1 class="display-4">Students List</h1>
+            <div class="h1 text-center text-dark" id="pageHeaderTitle">Students List</div>
+            </div>
+        </div>
+    </div><!-- End -->
+
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-7 mx-auto bg-white rounded shadow">
+
+               
+                <div class="table-responsive">
+                    <table class="table table-fixed">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="col-3">id</th>
+                                <th scope="col" class="col-3">Username</th>
+                                <th scope="col" class="col-3">Subject</th>
+                                <th scope="col" class="col-3">Result</th>
+                            </tr>
+                        </thead>
+                            <app-student *ngFor="let student of dataTable; let index = index" [s]="student" [index]="index"></app-student>
+                        
+                    </table>
+                </div>                
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,32 @@
+<app-navbar></app-navbar>
+
+<div class="body-text">
+<section class="light">
+	<div class="container py-2">
+		<br><br>
+		<div class="h1 text-center text-dark" id="pageHeaderTitle">Subject List</div>
+
+		<article class="postcard light blue" *ngFor="let item of subjects;let index=index">
+			<a class="postcard__img_link" routerLink="/student/exam/{{item.id}}">
+				<img class="postcard__img" src="https://www.shutterstock.com/image-vector/businessman-holding-pencil-complete-checklist-260nw-1381510124.jpg" alt="Image Title" />
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title blue"><a routerLink="/student/exam/{{item.id}}">CMQ {{item.name}}</a></h1>
+				<div class="postcard__bar"></div>
+				<ul class="postcard__tagbox">
+					<li *ngIf="user?.role == 'Teacher'" class="tag__item play red" (click)="delete(index)">
+						<a ><i class="fas fa-play mr-2"></i>Delete</a>
+					</li>
+					<li *ngIf="user?.role == 'Teacher'" class="tag__item play green">
+            <a routerLink="/student/exam/{{item.id}}"><i class="fas fa-play mr-2"></i>See Exam</a>
+          </li>
+					<li *ngIf="user?.role == 'Student'" class="tag__item play blue">
+						<a routerLink="/student/exam/{{item.id}}"><i class="fas fa-play mr-2"></i>Start Exam</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+	</div>
+</section>
+
+</div>

@@ -1,0 +1,90 @@
+
+.new-exam {
+    padding: 100px 200px;   
+    .question {
+        width: 70%;
+        margin: 50px auto;
+        form {
+            mat-form-field {
+                width: 88%;
+                margin-top: 30px;
+                &.queiz {
+                    width: 100%;
+                }
+            }
+            .questBtn {
+                
+                align-items: center;
+            }
+        }
+    }
+    
+    .examBox {
+        width: 90%;
+        margin: 50px auto;
+        border: 1px solid #DDD;
+        border-radius: 10px;
+        padding: 20px;
+        
+    
+        
+    }
+    
+    
+    
+    .alert-danger {
+        background-color: #f44336c4;
+        color:#FFF;
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    
+    .text-success {
+        color: #0ec311;
+    }
+    
+}
+button {
+    margin: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h2 {
+    font-family: 'Almarai', sans-serif;
+    display: inline-block;
+    padding: 5px 88px;
+    background-color: #6dabe4;
+    border-radius: 30px;
+    font-size: 28px;
+    color: #FFf;
+}.examhead {
+    margin-top: -40px;
+
+    margin-bottom: 20px;
+    
+}
+.quizBox {
+    .row {
+        padding-right: 30px;
+        
+    }
+     strong {
+         font-size: 22px;
+     }
+ }
+ .question {
+    width: 100%;
+    margin: 50px auto;}
+    .col-sm-12 {
+        margin: 7px 0px;
+        font-size: 15px;
+     }
+     .questBtn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .questBtn button {
+        margin: 5px; /* Remove default button margins */
+    }

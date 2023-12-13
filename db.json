@@ -1,0 +1,279 @@
+{
+  "Student": [
+    {
+      "username": "Jihen",
+      "email": "jihen@gmail.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "Angular",
+          "id": 1,
+          "result": 2
+        },
+        {
+          "name": "Data Analytics",
+          "id": 4,
+          "result": 5
+        }
+      ],
+      "id": 1
+    },
+    {
+      "username": "Nour",
+      "email": "nour@gmail.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "Spring Boot",
+          "id": 2,
+          "result": 3
+        }
+      ],
+      "id": 2
+    },
+    {
+      "username": "Hazem",
+      "email": "hazem@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "username": "Hiba",
+      "email": "hiba@gmail.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "Angular",
+          "id": 1,
+          "result": 4
+        }
+      ],
+      "id": 4
+    },
+    {
+      "username": "Yessin",
+      "email": "yessin@gmail.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "BlockChain",
+          "id": 3,
+          "result": 4
+        }
+      ],
+      "id": 5
+    },
+    {
+      "username": "Sarra",
+      "email": "sarra@gmail.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "username": "Mohamed",
+      "email": "mohamed@gmail.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "Spring Boot",
+          "id": 2,
+          "result": 3
+        },
+        {
+          "name": "Angular",
+          "id": 1,
+          "result": 4
+        }
+      ],
+      "id": 7
+    },
+    {
+      "username": "Yessmin",
+      "email": "yessmin@gmail.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "Data Analytics",
+          "id": 4,
+          "result": 5
+        }
+      ],
+      "id": 8
+    },
+    {
+      "username": "Bouzidi Mayssa",
+      "email": "mayssa@gmail.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "Angular",
+          "id": 1,
+          "result": 2
+        }
+      ],
+      "id": 9
+    }
+  ],
+  "Teacher": [
+    {
+      "username": "admin",
+      "email": "admin@admin.com",
+      "password": "123",
+      "id": 1
+    }
+  ],
+  "login": [
+    {
+      "username": "admin",
+      "role": "Teacher",
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "Subjects": [
+    {
+      "name": "Angular",
+      "questions": [
+        {
+          "question": "What is Angular?",
+          "answer1": " A programming language",
+          "answer2": "A web framework",
+          "answer3": "An operating system",
+          "answer4": "A database management system",
+          "correctAnswer": "A web framework"
+        },
+        {
+          "question": "What is the purpose of Angular CLI?",
+          "answer1": "To create and manage Angular projects",
+          "answer2": "To write Angular components",
+          "answer3": "To design user interfaces",
+          "answer4": "To deploy Angular applications",
+          "correctAnswer": "To create and manage Angular projects"
+        },
+        {
+          "question": "What is a component in Angular?",
+          "answer1": "A directive",
+          "answer2": "A service",
+          "answer3": "A building block of an Angular application",
+          "answer4": "An external library",
+          "correctAnswer": "A building block of an Angular application"
+        },
+        {
+          "question": "What is two-way data binding in Angular?",
+          "answer1": "Binding data in one direction only",
+          "answer2": "Binding data in two different components",
+          "answer3": "Binding data in both directions between the view and the model",
+          "answer4": "Binding data in the server and client",
+          "correctAnswer": "Binding data in both directions between the view and the model"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Spring Boot",
+      "questions": [
+        {
+          "question": "What is Spring Boot?",
+          "answer1": "A programming language",
+          "answer2": "An operating system",
+          "answer3": "A framework for building Java-based web applications",
+          "answer4": "A database management system",
+          "correctAnswer": "A framework for building Java-based web applications"
+        },
+        {
+          "question": "What is the purpose of the @SpringBootApplication annotation in a Spring Boot application?",
+          "answer1": "It marks a class as a Spring Bean",
+          "answer2": "It defines a REST endpoint",
+          "answer3": "It enables the automatic configuration of the Spring context",
+          "answer4": "It configures a database connection",
+          "correctAnswer": "It enables the automatic configuration of the Spring context"
+        },
+        {
+          "question": "How does Spring Boot simplify the configuration of data sources?",
+          "answer1": "By requiring extensive XML configuration files",
+          "answer2": "By providing sensible defaults and requiring minimal configuration",
+          "answer3": "By eliminating the need for data sources in applications",
+          "answer4": "By relying on external configuration tools",
+          "correctAnswer": "By providing sensible defaults and requiring minimal configuration"
+        },
+        {
+          "question": "What is the purpose of the @RestController annotation in Spring Boot?",
+          "answer1": "It defines a Spring Bean",
+          "answer2": "It handles HTTP requests and produces RESTful responses",
+          "answer3": " It configures security settings",
+          "answer4": " It establishes a connection to a database",
+          "correctAnswer": "It handles HTTP requests and produces RESTful responses"
+        },
+        {
+          "question": "How does Spring Boot simplify the deployment of applications?",
+          "answer1": " By providing a cloud hosting service",
+          "answer2": "By generating executable JAR or WAR files",
+          "answer3": "By requiring manual deployment steps",
+          "answer4": "By outsourcing deployment to third-party vendors",
+          "correctAnswer": "By generating executable JAR or WAR files"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "BlockChain",
+      "questions": [
+        {
+          "question": "What is a blockchain?",
+          "answer1": "A centralized database",
+          "answer2": "A decentralized and distributed ledger",
+          "answer3": "A programming language",
+          "answer4": "An encryption algorithm",
+          "correctAnswer": "A decentralized and distributed ledger"
+        },
+        {
+          "question": "What is a block in a blockchain composed of?",
+          "answer1": "Only transactions",
+          "answer2": "Only a timestamp",
+          "answer3": "Transactions and a reference to the previous block",
+          "answer4": " Only cryptographic hashes",
+          "correctAnswer": "Transactions and a reference to the previous block"
+        },
+        {
+          "question": "What is the process of adding a new block to the blockchain called?",
+          "answer1": "Mining",
+          "answer2": "Hashing",
+          "answer3": "Encryption",
+          "answer4": "Validation",
+          "correctAnswer": "Mining"
+        },
+        {
+          "question": "What consensus algorithm is commonly used in blockchain networks like Bitcoin?",
+          "answer1": "Proof of Authority (PoA)",
+          "answer2": "Delegated Proof of Stake (DPoS)",
+          "answer3": "Proof of Work (PoW)",
+          "answer4": "Practical Byzantine Fault Tolerance (PBFT)",
+          "correctAnswer": "Proof of Work (PoW)"
+        },
+        {
+          "question": "What is a public key in blockchain cryptography used for?",
+          "answer1": "Encrypting data",
+          "answer2": " Decrypting data",
+          "answer3": "Generating digital signatures",
+          "answer4": "Identifying a user on the network",
+          "correctAnswer": "Generating digital signatures"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "aaa",
+      "questions": [
+        {
+          "question": "Q1ghjg",
+          "answer1": "1",
+          "answer2": "2",
+          "answer3": "3",
+          "answer4": "4",
+          "correctAnswer": "2"
+        }
+      ],
+      "id": 4
+    }
+  ]
+}

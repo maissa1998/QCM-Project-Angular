@@ -1,0 +1,15 @@
+<nav>
+  <div class="wrapper">
+    <div class="logo"><a href="#">QCMExpress</a></div>
+    <input type="radio" name="slider" id="menu-btn">
+    <input type="radio" name="slider" id="close-btn">
+    <ul class="nav-links">
+      <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+      <li><a routerLink="/teacher/subject">Subjects</a></li>
+      <li *ngIf="user?.role === 'Teacher'"><a routerLink="/teacher/list">Students</a></li>
+      <li *ngIf="user?.role === 'Teacher'"><a routerLink="/teacher/exam">New Exam</a></li>
+      <li (click)="logout()"><a routerLink="/login">Log out</a></li>
+    </ul>
+    <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+  </div>
+</nav>
